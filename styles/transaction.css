@@ -1,0 +1,181 @@
+.c1{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.i1{
+	margin-left: 20px;
+}
+
+.i2{
+	margin-left: 28px;
+}
+
+.i{
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	outline: none;
+}
+
+.i:focus {
+	border-bottom: 3px solid;
+}
+
+.i3{
+	padding-left: 40px;
+	padding-right: 40px;
+	border-color: transparent;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+
+.i13{
+	padding-left: 40px;
+	padding-right: 40px;
+	border-color: transparent;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+
+.i6{
+	border-color: transparent;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.i4, .i6{
+	background-color: #5ea457;
+}
+
+.i5, .i7{
+	background-color: #fe8d01;
+}
+
+.full-width-table {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.th1{
+	background-color: #8f41ff;
+	padding: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: white;
+}
+
+.bg{
+	background-color: white;
+	border-radius: 10px;
+	height: 100%;
+}
+
+
+.Ae{
+	float: right;
+}
+
+.Pe {
+	display: flex;
+  }
+  
+  .child {
+	flex: 1;
+	width: 50%;
+  }
+  
+  .child-right {
+	justify-content: flex-end;
+	margin-left: 30px;
+  }
+  
+  .child-left {
+	justify-content: flex-start;
+  }
+
+.i8{
+	background-color: #4a70e3;
+	border-color: transparent;
+	margin-left: 10px;
+	color: white;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.i9{
+	background-color: #fe8d01;
+	border-color: transparent;
+	margin-left: 10px;
+	color: white;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.s1{
+	color: red;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.i10{
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.i12{
+	margin-left: 75px;
+}
+
+.i11{
+	margin-left: 68px;
+}
+
+.Remark{
+	font-size: 20px;
+	margin-left: 90px;
+}
+
+.Ar{
+	margin-left: 20px;
+}
+
+.s2{
+	color: #018001;
+}
+
+.i14{
+	background-color: #4a70e3;
+	color: white;
+}
+
+.i15{
+	background-color: #f7546b;
+	color: white;	
+}
+
+.i16{
+	background-color: #5ea457;
+	color: white;	
+}
+
+.i17{
+	background-color: #fe8d01;
+	color: white;	
+}
+
+.th2{
+	font-weight: normal;
+}
+
+.i18{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.Motmarg{
+	margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+.ClassAbsences, .TGM, .FGM, .GWA, .TGI, .FGI, .GWAI, .CE, .SOA, .IO, .PR{
+    display: none;
+}
+
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    border-bottom: 1px solid black; /* Added border-bottom property */
+  }
+ .tr1{
+    background-color: #50b1ff;
+  }
