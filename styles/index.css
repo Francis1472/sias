@@ -3,6 +3,7 @@ body {
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  zoom: 67%;
 }
 
 .navbar {
@@ -23,8 +24,10 @@ body {
 
 #footer {
   background-color: rgb(0, 0, 168);
-  height: 150px;
+  height: 100px;
 }
+
+
 
 .list-group {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */

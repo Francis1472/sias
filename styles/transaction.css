@@ -147,7 +147,7 @@
 	color: #018001;
 }
 
-.i14{
+.i14, .i21{
 	background-color: #4a70e3;
 	color: white;
 }
@@ -178,4 +178,63 @@
 
 .Motmarg{
 	margin-top: 20px;
+}
+
+.i19{
+	margin-left: 100px;
+	background-color: #5ea457;
+}
+
+.i20, .i22{
+	margin-top: 50px;
+}
+
+.i22{
+	margin-left: 50px;
+}
+
+.i23{
+	background-color: #4a70e3;
+	color: white;
+	margin-left: 50px;
+}
+
+.s3{
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.l1{
+	margin-left: 73px;
+}
+
+.l2{
+	margin-left: 60px;
+}
+
+.l3{
+	margin-top: 20px;
+	margin-left: 67px;
+}
+
+.i24{
+	margin-left: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.i25{
+	background-color: #5ea457;
+}
+
+.l4{
+	margin-top: 20px;
+}
+
+.l6{
+	margin-left: 90px;
+}
+
+.l7{
+	margin-left: 80px;
 }

@@ -58,13 +58,112 @@
         <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bAssessment">Assessment</a>
         <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bLm">Learning Modules</a>
         <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bMot">My Online Tasks</a>
-        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3">My Test Scores</a>
-        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3">Teacher Evaluation</a>
-        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3">Disable ID Card</a>
-        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3">Online Payment</a>
-        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3">Express Payment</a>
+        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bMts">My Test Scores</a>
+        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bTe">Teacher Evaluation</a>
+        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bDic">Disable ID Card</a>
+        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bOpd">Online Payment</a>
+        <a href="#" class="list-group-item list-group-item-action ps-4 ms-3" id="bEp">Express Payment</a>
       </div>
       <!--  -->
+      <div class="col-9 bg-transparent" id="Ep">
+        <div class="bg">
+            <form action="/action_page.php">
+
+              <label for="Op" class="i10 l3">Payment:</label>
+              <select class="i" id="Op" name="Op">
+                <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="MLhuiller">MLhuiller</option>
+                <option value="Cebuana">Cebuana</option>
+                <option value="Palawan">Palawan</option>
+                <option value="LBC">LBC</option>
+                <option value="Western Union">Western Union</option>
+                <option value="GCash">GCash</option>         
+              </select><br><br> 
+
+                <label for="Op" class="i10">Control No.</label>
+                <input class="i" type="text" id="Op" name="Op"><br>
+
+                <br><label for="i Np" class="i10 l6">Sender </label>
+                <input class="i" type="text" id="Np" name="Np"><br>
+
+                <br><label for="Rp" class="i10 l7">Amount </label>
+                <input class="i" type="text" id="Rp" name="Rp"><br><br><br>
+
+                <input class="i13 i23" type="submit" value="View Payments">
+                <input class="i13 i23" type="submit" value="Save Payment">
+            </form>
+            <br>
+        </div>
+    </div>
+
+      <div class="col-9 bg-transparent" id="Opd">
+        <div class="bg">
+          <div class="s3">
+            <strong>FULLY PAID</strong> in the period <strong>2nd Semester 2022-2023</strong>
+          </div>
+
+            <form action="/action_page.php">
+                <label for="Op" class="i10 l3">Emai:</label>
+                <input class="i" type="text" id="Op" name="Op"><br>
+
+                <br><label for="i Np" class="i10 l1">Option:</label>
+                <input class="i" type="text" id="Np" name="Np"><br>
+
+                <br><label for="Rp" class="i10 l2">Channel:</label>
+                <input class="i" type="text" id="Rp" name="Rp"><br><br><br>
+
+                <br><label for="Rp" class="i10">Currency:</label>
+                <input class="i" type="text" id="Rp" name="Rp"><br><br>
+
+                <input class="i13 i23 i24" type="submit" value="?"><br><br>
+                <input class="i13 i23 i24 i25" type="submit" value="?">
+            </form>
+            <br>
+        </div>
+    </div>
+
+      <div class="col-9 bg-transparent" id="Dic">
+        <div class="bg">
+            <form action="/action_page.php"> 
+              <input type="checkbox" id="confirmDisableIdCard" class="i22" name="confirmDisableIdCard" value="1">
+              <label for="confirmDisableIdCard">Confirm disable ID card</label>    
+              <br><br>          
+
+                <input class="i3 i23" type="submit" value="Disable"><br><br>
+            </form>
+        </div>
+    </div>
+
+      <div class="col-9 bg-transparent" id="Te">
+        <div class="bg">
+            <form action="/action_page.php"> 
+                <label for="Op" class="i18 i20">Classes:</label>
+                <select class="i" id="Op" name="Op">
+                  <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                  <option value=""></option>          
+                </select><br><br>  
+
+                <input class="i3 i14 i21" type="submit" value="PDF">
+            </form>
+        </div>
+    </div>
+
+      <div class="col-9 bg-transparent" id="Mts">
+        <div class="bg">
+            <form action="/action_page.php">
+                <label for="Op" class="i18">Subject:</label>
+                <input class="i" type="date" id="Op" name="Op"><br><br>  
+                <label for="Op" class="i18">Test:</label>
+                <select class="i" id="Op" name="Op">
+                  <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                  <option value=""></option>          
+                </select><br><br>  
+
+                <input class="i3 i14 i19" type="submit" value="Check Scores">
+            </form>
+        </div>
+    </div>
+
       <div class="col-9 bg-transparent" id="Mot">
         <div class="bg">
             <form action="/action_page.php">
@@ -527,16 +626,16 @@
       <div class="fs-5 links">
         Contact Us:
         <a href="https://www.facebook.com">
-          <img src="../images/fb.png" class="mx-1" width="50" alt="" />
+          <img src="../images/fb.png" class="mx-1" width="30" alt="" />
         </a>
         <a href="https://gmail.com">
-          <img src="../images/gmail.webp" class="mx-1" width="50" alt="" />
+          <img src="../images/gmail.webp" class="mx-1" width="30" alt="" />
         </a>
         <a href="https://instagram.com">
-          <img src="../images/insta.svg" class="mx-1" width="50" alt="" />
+          <img src="../images/insta.svg" class="mx-1" width="30" alt="" />
         </a>
         <a href="https://twitter.com">
-          <img src="../images/twitter.png" class="mx-1" width="50" alt="" />
+          <img src="../images/twitter.png" class="mx-1" width="30" alt="" />
         </a>
       </div>
     </div>
